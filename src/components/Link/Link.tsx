@@ -22,10 +22,15 @@ export interface LinkProps {
 }
 
 export const Link = (props: LinkProps) => {
-  const { href, target = "_self" } = props;
+  const { target = "_self" } = props;
 
   return (
-    <a className={s.Link} href={href} target={target} onClick={props.onClick}>
+    <a
+      className={s.Link}
+      href={props.href}
+      target={target}
+      onClick={props.onClick}
+    >
       {props.children}
     </a>
   );

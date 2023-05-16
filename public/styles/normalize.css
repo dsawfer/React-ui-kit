@@ -347,3 +347,8 @@ template {
 [hidden] {
   display: none;
 }
+
+* {
+  transition-duration: 0.3s;
+  transition-property: background-color, color;
+}

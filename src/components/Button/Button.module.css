@@ -9,11 +9,11 @@
   flex-direction: row;
   align-items: center;
   padding: 12px 24px;
-  height: 48px;
+  height: var(--elements-height);
   background: var(--primary-base);
   color: rgba(246, 246, 246, 1);
   border: none;
-  border-radius: 8px;
+  border-radius: var(--elements-border-radius);
   cursor: pointer;
 }
 

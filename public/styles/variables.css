@@ -4,4 +4,8 @@
   --primary-hover: #262E41;
   --primary-active: #1C222F;
   --primary-disable: #999EAB;
+
+  /*ELEMENTS*/
+  --elements-height: 48px;
+  --elements-border-radius: 8px;
 }

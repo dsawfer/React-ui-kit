@@ -1,0 +1,23 @@
+.Input {
+  font-family: Manrope, serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+
+  border: none;
+  outline: none;
+  box-shadow: inset 0 0 0 2px var(--primary-base);
+  height: var(--elements-height);
+  border-radius: var(--elements-border-radius);
+  padding: 0 24px;
+  color: #2E374D;
+}
+
+.Input:hover {
+  box-shadow: inset 0 0 0 2px var(--primary-hover);
+}
+
+.Input:disabled {
+  box-shadow: inset 0 0 0 2px #ABAFB9;
+}
