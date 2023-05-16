@@ -1,0 +1,30 @@
+.Button {
+  font-family: Manrope, serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 24px;
+  height: 48px;
+  background: var(--primary-base);
+  color: rgba(246, 246, 246, 1);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background: var(--primary-hover);
+}
+
+.Button:active {
+  background: var(--primary-active);
+}
+
+.Button:disabled {
+  background: var(--primary-disable);
+}
