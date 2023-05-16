@@ -1,0 +1,19 @@
+.Link {
+  font-family: Manrope, serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+
+  text-decoration: none;
+  color: #4AA1FF;
+  cursor: pointer;
+}
+
+.Link:hover {
+  color: #1987FF;
+}
+
+.Link:disabled {
+  color: #B6D9FF;
+}
