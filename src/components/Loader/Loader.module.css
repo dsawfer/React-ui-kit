@@ -1,0 +1,17 @@
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.Loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: spinner 1.5s linear infinite;
+  transition-timing-function: ease;
+}
