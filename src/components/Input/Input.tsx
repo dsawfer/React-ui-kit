@@ -1,6 +1,8 @@
 import React from "react";
 
 import s from "./Input.module.css";
+import { cn } from "../../utils/cn";
+import t from "../../styles/typography.module.css";
 
 interface InputProps {
   autocomplete?: boolean;
@@ -18,7 +20,7 @@ export const Input = (props: InputProps) => {
 
   return (
     <input
-      className={s.Input}
+      className={cn(t.BodyL_bold, s.Input)}
       autoComplete={autocomplete ? "on" : "off"}
       autoFocus={autofocus}
       disabled={props.disabled}

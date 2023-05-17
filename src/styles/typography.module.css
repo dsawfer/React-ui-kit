@@ -1,0 +1,114 @@
+.H1 {
+  font-size: 52px;
+  line-height: 56px;
+  font-weight: 700;
+}
+
+.H2 {
+  font-size: 44px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.H3 {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.H4 {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.H5 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.H6 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.BodyXL {
+  font-size: 19px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.BodyXL_bold {
+  font-size: 19px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.BodyL {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.BodyL_bold {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.BodyM {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.BodyM_bold {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.BodyS {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.BodyS_bold {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.BodyXS {
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+.BodyXS_bold {
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.H1,
+.H2,
+.H3,
+.H4,
+.H5,
+.H6,
+.BodyXL,
+.BodyXL_bold,
+.BodyL,
+.BodyL_bold,
+.BodyM,
+.BodyM_bold,
+.BodyS,
+.BodyS_bold,
+.BodyXS,
+.BodyXS_bold {
+  font-family: Manrope, serif;
+}

@@ -1,11 +1,42 @@
 :root {
   /*COLORS*/
-  --primary-base: #3D475E;
-  --primary-hover: #262E41;
-  --primary-active: #1C222F;
-  --primary-disable: #999EAB;
+  --color-base-01: #FFFFFF;
+  --color-base-02: #F6F6F6;
+  --color-base-03: #EDEDED;
+  --color-base-04: #D7D7D7;
+  --color-base-05: #B0B0B0;
+  --color-base-06: #959595;
+  --color-base-07: #808080;
+  --color-base-08: #333333;
+  --color-base-09: #000000;
+
+  --color-primary-base: #3D475E;
+  --color-primary-hover: #262E41;
+  --color-primary-active: #1C222F;
+  --color-primary-disable: #999EAB;
+
+  --color-secondary-base: #E6F2FF;
+  --color-secondary-hover: #CCE5FF;
+  --color-secondary-active: #99CAFF;
+  --color-secondary-disable: #F2F8FF;
+
+  --color-success-base: #80E491;
+  --color-success-hover: #5EDD73;
+  --color-success-disable: #CCF4D3;
+  --color-success-bg: #EEFBF0;
+
+  --color-info-base: #4AA1FF;
+  --color-info-hover: #1987FF;
+  --color-info-disable: #B6D9FF;
+  --color-info-bg: #E6F2FF;
+
+  --color-text-01: #2E374D;
+  --color-text-02: #475067;
+  --color-text-03: #666E80;
+  --color-text-04: #ABAFB9;
+
 
   /*ELEMENTS*/
-  --elements-height: 48px;
-  --elements-border-radius: 8px;
+  --element-height: 48px;
+  --element-border-radius: 8px;
 }

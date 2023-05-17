@@ -6,14 +6,14 @@
   letter-spacing: 0;
 
   text-decoration: none;
-  color: #4AA1FF;
+  color: var(--color-info-base);
   cursor: pointer;
 }
 
 .Link:hover {
-  color: #1987FF;
+  color: var(--color-info-hover);
 }
 
 .Link:disabled {
-  color: #B6D9FF;
+  color: var(--color-info-disable);
 }

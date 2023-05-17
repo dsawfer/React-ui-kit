@@ -1,6 +1,8 @@
 import React from "react";
 
 import s from "./Button.module.css";
+import t from "../../styles/typography.module.css";
+import { cn } from "../../utils/cn";
 
 type ButtonTheme = "primary" | "secondary" | "outline" | "flat";
 
@@ -34,7 +36,7 @@ export const Button = (props: ButtonProps) => {
 
   return (
     <button
-      className={s.Button}
+      className={cn(t.BodyL_bold, s.Button)}
       onClick={props.onClick}
       type={type}
       disabled={disabled}
