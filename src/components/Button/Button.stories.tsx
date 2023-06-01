@@ -15,3 +15,25 @@ export const Primary: Story = {
     children: "Button",
   },
 };
+
+export const Secondary: Story = {
+  args: {
+    theme: "secondary",
+    children: "Button",
+  },
+};
+
+export const Outline: Story = {
+  args: {
+    theme: "outline",
+    children: "Button",
+  },
+};
+
+export const Flat: Story = {
+  args: {
+    theme: "flat",
+    children: "Button",
+  },
+};
+

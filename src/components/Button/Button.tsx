@@ -36,7 +36,7 @@ export const Button = (props: ButtonProps) => {
 
   return (
     <button
-      className={cn(t.BodyL_bold, s.Button)}
+      className={cn(t.BodyL_bold, s.Button, s[`Button_${theme}`])}
       onClick={props.onClick}
       type={type}
       disabled={disabled}

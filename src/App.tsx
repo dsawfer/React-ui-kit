@@ -38,6 +38,24 @@ function App() {
           <Loader></Loader>
         </Button>
       </div>
+        <div
+            style={{
+                display: "flex",
+                gap: "20px 20px",
+                alignItems: "center",
+                padding: "20px",
+            }}
+        >
+            <Button theme='secondary'>
+                Content
+            </Button>
+            <Button theme='outline'>
+                Content
+            </Button>
+            <Button theme='flat'>
+                Content
+            </Button>
+        </div>
       <div
         style={{
           display: "flex",
