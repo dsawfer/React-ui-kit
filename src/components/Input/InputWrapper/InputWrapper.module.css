@@ -1,0 +1,12 @@
+.Wrapper > *:not(:first-child) {
+    margin-top: 8px;
+}
+
+.Title {
+    margin: 0;
+    color: var(--color-primary-base);
+}
+
+.Hint {
+    color: var(--color-text-03);
+}

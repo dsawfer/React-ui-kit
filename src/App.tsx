@@ -4,6 +4,7 @@ import { Link } from "./components/Link/Link";
 import { Input } from "./components/Input/Input";
 import { Icon } from "./components/Icon/Icon";
 import { Loader } from "./components/Loader/Loader";
+import {InputWrapper} from "./components/Input/InputWrapper/InputWrapper";
 
 function App() {
   const [disabled, setDisabled] = useState<boolean>(false);
@@ -77,6 +78,16 @@ function App() {
         <Input onInput={(e) => console.log(e.target.value)}></Input>
         <Button>Button with input</Button>
       </div>
+        <div
+            style={{
+                display: "flex",
+                gap: "20px 4px",
+                alignItems: "center",
+                padding: "20px",
+            }}
+        >
+            <InputWrapper title="Title" hint="hint"><Input /></InputWrapper>
+        </div>
       <div
         style={{
           display: "flex",
